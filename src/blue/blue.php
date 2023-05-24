@@ -5,7 +5,7 @@ Parametros:
   - imagen: url de la imagen a la que queremos poner en azul
 
 Ejemplos:
-	https://pruebas.enuttisworking.com/blue/blue.php?imagen=https://pbs.twimg.com/media/FvyMutbWcAEPHdi?format=jpg&name=large
+	https://pruebas.enuttisworking.com/blue/blue.php?imagen=https://raw.githubusercontent.com/gwannon/tratamiento-imagenes-php/main/src/coche.jpg
 */
 
 ini_set("display_errors", 0);
@@ -21,21 +21,21 @@ header('Content-disposition: filename="'.basename($imagen_url).'"');
 if(file_exists("./cache/".basename($imagen_url))) {
 	$path = "./cache/".basename($imagen_url);
 	if(exif_imagetype($path) == IMAGETYPE_JPEG){
-		$image=@imagecreatefromjpeg($path);
+		$image = @imagecreatefromjpeg($path);
 	} else {
-		$image=@imagecreatefrompng($path);
+		$image = @imagecreatefrompng($path);
 	}
 	imagepng($image);
 	imagedestroy($image);
 } else { //Creamos la imagen
-	$filter_r=0;
-	$filter_g=159;
-	$filter_b=223;
+	$filter_r = 0;
+	$filter_g = 159;
+	$filter_b = 223;
 	$path=$imagen_url;
 	if(exif_imagetype($path) == IMAGETYPE_JPEG){
-		$image=@imagecreatefromjpeg($path);
+		$image = @imagecreatefromjpeg($path);
 	} else {
-		$image=@imagecreatefrompng($path);
+		$image = @imagecreatefrompng($path);
 	}
 	imagepalettetotruecolor($image);
 	imagefilter($image, IMG_FILTER_GRAYSCALE);

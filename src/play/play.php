@@ -6,7 +6,7 @@ Parametros:
   - imagen: url de la imagen a la que queremos poner el play 
 
 Ejemplos:
-	https://pruebas.enuttisworking.com/play/play.php?imagen=https://pbs.twimg.com/media/FvyMutbWcAEPHdi?format=jpg&name=large
+	https://pruebas.enuttisworking.com/play/play.php?imagen=https://raw.githubusercontent.com/gwannon/tratamiento-imagenes-php/main/src/coche.jpg
 */
 
 $imagen_url = $_GET['imagen'];

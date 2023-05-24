@@ -12,7 +12,7 @@ Ejemplo de tratamiento de imágenes con las librerías de imagen de PHP.
 * imagen: url de la imagen a la que queremos poner el marco 
 
 ### Ejemplos:
-* https://pruebas.enuttisworking.com/coches/image.php?nombre=KIA%20Niro&precio=27400&color=ffffff&imagen=https://raw.githubusercontent.com/gwannon/tratamiento-imagenes-php/main/src/kia-niro-1-6-hev-emotion-9.jpg
+* https://pruebas.enuttisworking.com/coches/image.php?nombre=KIA%20Niro&precio=27400&color=ffffff&imagen=https://raw.githubusercontent.com/gwannon/tratamiento-imagenes-php/main/src/coche.jpg
 
 ![Coche con marco](https://pruebas.enuttisworking.com/coches/image.php?nombre=KIA%20Niro&precio=27400&color=ffffff&imagen=https://raw.githubusercontent.com/gwannon/tratamiento-imagenes-php/main/src/coche.jpg)
 
