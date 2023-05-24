@@ -12,6 +12,8 @@ Ejemplo de tratamiento de imágenes con las librerías de imagen de PHP.
 ### Ejemplos:
 https://pruebas.enuttisworking.com/coches/image.php?nombre=KIA%20Niro&precio=27400&color=ffffff&imagen=https://raw.githubusercontent.com/gwannon/tratamiento-imagenes-php/main/src/kia-niro-1-6-hev-emotion-9.jpg
 
+![Coche](https://pruebas.enuttisworking.com/coches/image.php?nombre=KIA%20Niro&precio=27400&color=ffffff&imagen=https://raw.githubusercontent.com/gwannon/tratamiento-imagenes-php/main/src/kia-niro-1-6-hev-emotion-9.jpg)
+
 ## blue.php
 
 ### Parametros:
