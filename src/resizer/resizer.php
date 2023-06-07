@@ -1,7 +1,7 @@
 <?php
 
 /*
-    Converite todos los PNGs deñ directorio media en imágenes de 272x272 con la imagen anterior en el centro y rediemnsionada.
+    Convierte todos los PNGs del directorio /media/ en imágenes de 272x272 con la imagen en PNG anterior en el centro y redimensionada.Converite todos los PNGs deñ directorio media en imágenes de 272x272 con la imagen anterior en el centro y rediemnsionada.
 */ 
 
 if (!file_exists("./media/")) {

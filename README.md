@@ -38,4 +38,4 @@ Ejemplo de tratamiento de imágenes con las librerías de imagen de PHP.
 
 
 ## resizer.php
-Converite todos los PNGs del directorio /media/ en imágenes de 272x272 con la imagen en PNG anterior en el centro y redimensionada.
+Convierte todos los PNGs del directorio /media/ en imágenes de 272x272 con la imagen en PNG anterior en el centro y redimensionada.
