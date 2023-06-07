@@ -36,3 +36,6 @@ Ejemplo de tratamiento de imágenes con las librerías de imagen de PHP.
 
 ![Coche con Play](https://pruebas.enuttisworking.com/play/play.php?imagen=https://raw.githubusercontent.com/gwannon/tratamiento-imagenes-php/main/src/coche.jpg)
 
+
+## resizer.php
+Converite todos los PNGs del directorio /media/ en imágenes de 272x272 con la imagen en PNG anterior en el centro y redimensionada.
